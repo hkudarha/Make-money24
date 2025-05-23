@@ -95,7 +95,7 @@ const Login = () => {
                 <div className='w-full h-full flex items-center justify-center p-4'>
                     <div className='max-w-xl h-fit p-5 flex flex-col gap-5 rounded-xl border bg-[#ffffff6e] backdrop-blur-md'>
                         <div className='flex items-center justify-center'>
-                            <img src={MainContent.logo1} className='h-20 object-contain' alt="Logo" />
+                            <img src={MainContent.logo1} className='h-20 object-contain mx-[8rem]' alt="Logo" />
                         </div>
                         <div className='flex flex-col gap-4'>
                             <InputField

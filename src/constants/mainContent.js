@@ -1,5 +1,7 @@
 import logo from "../assets/images/logo.png";
-import logo1 from "../assets/images/adm logo1.png";
+// import logo1 from "../assets/images/adm logo1.png";
+import logo1 from "../assets/images/makemoney.png";
+
 import { store } from "../Redux/store";
 import axios from "axios";
 
