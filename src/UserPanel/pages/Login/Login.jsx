@@ -130,7 +130,11 @@ const Login = () => {
                                 className="bg-bg-color px-4 py-3 text-sm  rounded-md text-white text-center w-full disabled:opacity-50"
                                 onClick={handleSubmit}
                             />
+                            <div className='flex flex-row items-center justify-between'>
                             <Link to={Routers.forgotPassword} className='text-sm underline text-blue-500'>Forget Password</Link>
+                            <Link to='/register' className='text-sm underline text-blue-500'>Register</Link>
+
+                            </div>
                         </div>
                     </div>
                 </div>

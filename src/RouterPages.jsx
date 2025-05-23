@@ -55,6 +55,7 @@ import SupportForm from './UserPanel/pages/Support/SupportForm';
 import SupportFormTable from './UserPanel/pages/Support/SupportFormTable';
 import DownlineSaleList from './UserPanel/pages/DownlineMembers/DownlineSaleList';
 import LicActivatation from './UserPanel/pages/LicActivatation/LicActivatation';
+import Register from './UserPanel/pages/Register/Register';
 const RouterPages = () => {
     const dispatch = useDispatch()
     useEffect(() => {
@@ -88,6 +89,7 @@ const RouterPages = () => {
                     }
                 >
                     <Route path={Routers.Login} element={<Login />} />
+                    <Route path={Routers.Register} element={<Register />} />
                     <Route path={Routers.forgotPassword} element={<ForgotPassword />} />
                     <Route path={Routers.ChangePassword} element={<ChangePassword />} />
                 </Route>
