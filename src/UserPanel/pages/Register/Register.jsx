@@ -94,7 +94,7 @@ const Register = () => {
             className='w-full h-screen bg-bg-color1'
         >
             <div className='w-full h-full flex items-center justify-center p-4'>
-                <div className='max-w-xl p-5 flex flex-col gap-5 rounded-xl border bg-[#ffffff6e] backdrop-blur-md'>
+                <div className='max-w-xl p-5 flex flex-col  rounded-xl border bg-[#ffffff6e] backdrop-blur-md'>
                     <div className='flex items-center justify-center'>
                         <img src={MainContent.logo1} className='h-20 object-contain mx-[8rem]' alt='Logo' />
                     </div>
@@ -131,7 +131,7 @@ const Register = () => {
 
                         <Button
                             title={submitting ? 'Registering...' : 'Register'}
-                            className='bg-bg-color px-4 py-3 text-sm rounded-md text-white w-full disabled:opacity-50'
+                            className='bg-bg-color px-4 py-3 text-sm rounded-md text-white w-full text-center disabled:opacity-50'
                             onClick={handleRegister}
                             disabled={submitting}
                         />
