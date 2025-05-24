@@ -95,6 +95,7 @@ const Layout = () => {
         { path: Routers.Profile, label: "Profile", icon: <CgProfile /> },
         { path: Routers.IdCard, label: "ID Card", icon: <CgProfile /> },
         { path: Routers.ResetPassword, label: "Change Password", icon: <CgProfile /> },
+        { path: Routers.Myrefferalcode, label: "My Referral Coder", icon: <CgProfile /> },
       ],
     },
     {
@@ -282,7 +283,7 @@ const Layout = () => {
             <img
               src={MainContent.logo1}
               alt="Bionova Logo"
-              className="w-[200px] h-auto"
+              className="w-[5rem] h-[5rem]"
             />
           </div>
         </div>

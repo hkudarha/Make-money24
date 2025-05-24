@@ -53,8 +53,8 @@ const DashboardPage = () => {
   return (
     <div className="flex flex-col gap-5">
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
-        <PersonalDetails />
-        <MonthlySaleReport />
+        {/* <PersonalDetails /> */}
+        {/* <MonthlySaleReport /> */}
       </div>
       <HeaderCard data={dashboard} />
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">

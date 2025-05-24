@@ -113,7 +113,7 @@ const NavBar = () => {
                     <FaBars className="text-lg text-gray-800" />
                 </button>
                 <Link to={"/"}>
-                    <img src={MainContent.logo1} alt="logo" className=" w-[5rem]" />
+                    <img src={MainContent.logo1} alt="logo" className=" w-[1rem] h-[1rem]" />
                 </Link>
             </div>
 

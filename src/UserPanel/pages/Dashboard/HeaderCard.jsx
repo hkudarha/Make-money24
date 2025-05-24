@@ -78,6 +78,14 @@ const HeaderCard = ({ data }) => {
       img: "https://img.icons8.com/3d-fluency/94/cancel.png",
       color: "bg-gradient-to-r from-red-400 via-yellow-300 to-orange-400",
     },
+
+    // my added
+    {
+      title: "My refferal code",
+      value: `₹ ${data?.cancelledWalletBalance?.toFixed(2) ?? "0.00"}`,
+      img: "https://img.icons8.com/3d-fluency/94/cancel.png",
+      color: "bg-gradient-to-r from-red-400 via-yellow-300 to-orange-400",
+    },
   ];
 
 

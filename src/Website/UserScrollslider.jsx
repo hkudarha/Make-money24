@@ -1,14 +1,14 @@
 import React from 'react';
-import brand1 from "../assets/slider/slider/3.png";
+import brand1 from "../assets/slider/slider/userscroll1.jpg";
 import brand2 from "../assets/slider/slider/4.png";
 import brand3 from "../assets/slider/slider/5.png";
 import brand4 from "../assets/slider/slider/6.png";
 import brand5 from "../assets/slider/slider/3.png";
 import brand6 from "../assets/slider/slider/4.png";
 import brand7 from "../assets/slider/slider/5.png";
-import brand8 from "../assets/slider/slider/6.png";   
+import brand8 from "../assets/slider/slider/6.png";
 
-const BrandSlider = () => {
+const UserScrollslider = () => {
   const data = [brand1, brand2, brand3, brand4, brand5, brand6, brand7, brand8];
 
   return (
@@ -18,9 +18,9 @@ const BrandSlider = () => {
         {[...data, ...data].map((el, idx) => (
           <div
             key={idx}
-            className="bg-white w-52  border rounded-lg flex items-center justify-center mx-2 shrink-0"
+            className=" w-32 h-32 flex items-center justify-center mx-2 shrink-0"
           >
-            <img src={el} alt={`brand-${idx}`} className="w-full h-full object-cover" />
+            <img src={el} alt={`brand-${idx}`} className="w-full h-full object-cover rounded-full" />
           </div>
         ))}
       </div>
@@ -28,4 +28,4 @@ const BrandSlider = () => {
   );
 };
 
-export default BrandSlider;
+export default UserScrollslider;

@@ -20,6 +20,7 @@ import HomePageAnimation from '../../Website/HomePageAnimation';
 import PopupBanner from '../components/PopupBanner';
 import BrandSlider from '../../Website/BrandSlider';
 import CategoryGrid from '../../Website/CategoryGrid';
+import UserScrollslider from '../../Website/UserScrollslider';
 
 const HomePage = () => {
 
@@ -94,6 +95,10 @@ const HomePage = () => {
         </Swiper>
       </section>
 
+      <section className='py-10'>
+      <UserScrollslider />
+      </section>
+
       <section className="md:py-10 py-5 bg-gray-50">
         <div className="container-custom">
           <div className="flex justify-between items-center md:mb-12 mb-5">
@@ -120,6 +125,8 @@ const HomePage = () => {
           <HomePageAnimation />
         </div>
       </section>
+
+
 
       <section className="">
         <div className="md:px-10 p-3">

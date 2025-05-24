@@ -60,12 +60,15 @@ const ProductCard = ({ product, showDescription = false }) => {
           >
             <Heart size={18} />
           </button>
-          <button
+          <Link 
+           to={`/products/${_id}`}
             className="p-2 rounded-full bg-primary-600 text-white hover:bg-primary-700 shadow-sm transition-colors"
             aria-label="Add to cart"
           >
             <ShoppingCart size={18} />
-          </button>
+        
+          </Link>
+
           <Link
             to={`/products/${_id}`}
             className="p-2 rounded-full bg-white text-primary-600 hover:bg-primary-50 shadow-sm transition-colors"

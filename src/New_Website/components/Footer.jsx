@@ -40,14 +40,19 @@ const Footer = () => {
               <a href="#" className="text-gray-400 hover:text-white transition text-sm md:text-base">
                 <Twitter size={20} />
               </a> */}
-          <a
-  href="https://www.instagram.com/aetheric_dynamics?igsh=ZDA5dmlxbnk2Ymlm"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="text-gray-400 hover:text-white transition text-sm md:text-base"
->
-  <Instagram size={20} />
-</a>
+              <a
+                href="https://www.instagram.com/aetheric_dynamics?igsh=ZDA5dmlxbnk2Ymlm"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-orange-300 transition flex flex-row gap-3 text-sm md:text-base"
+              >
+                <Instagram size={20} />
+                <Twitter />
+                <Youtube />
+                <Mail />
+
+              </a>
+              
 
               {/* <a href="#" className="text-gray-400 hover:text-white transition text-sm md:text-base">
                 <Youtube size={20} />

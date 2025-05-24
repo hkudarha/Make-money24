@@ -56,6 +56,7 @@ import SupportFormTable from './UserPanel/pages/Support/SupportFormTable';
 import DownlineSaleList from './UserPanel/pages/DownlineMembers/DownlineSaleList';
 import LicActivatation from './UserPanel/pages/LicActivatation/LicActivatation';
 import Register from './UserPanel/pages/Register/Register';
+import { Myrefferalcode } from './UserPanel/pages/Profile/Myrefferalcode';
 const RouterPages = () => {
     const dispatch = useDispatch()
     useEffect(() => {
@@ -144,7 +145,9 @@ const RouterPages = () => {
                     <Route path={Routers.News} element={<News />} />
                     <Route path={Routers.Invoice} element={<Invoice />} />
                     <Route path={Routers.LicActivatation} element={<LicActivatation />} />
+                    <Route path={Routers.Myrefferalcode} element={<Myrefferalcode />} />
                     <Route path="*" element={<NotFoundPage />} />
+
                 </Route>
             </Routes>
         </>

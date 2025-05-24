@@ -78,16 +78,21 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed bg-white top-0 left-0 flex items-center justify-between px-4 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+      className={`fixed bg-white top-0 left-0 flex items-center justify-between px-4 py-0  right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
         }`}
     >
       <div className="flex items-center gap-2">
         <button onClick={() => setSidebarOpen(true)} className="md:hidden block">
           <FaBars className="text-lg text-gray-800" />
         </button>
-        <Link to={"/"}>
-          <img src={MainContent.logo1} alt="logo" className="w-[5rem]" />
+        <Link to="/" className="block">
+          <img
+            src={MainContent.logo1}
+            alt="Logo"
+            className="w-[3rem] sm:w-[3rem] md:w-[3rem] lg:w-[4rem] object-contain max-w-full h-auto"
+          />
         </Link>
+
       </div>
 
       <div className='hidden md:flex gap-10 items-center relative'>
@@ -115,16 +120,16 @@ const Navbar = () => {
 
 
       <div className="flex items-center md:gap-4 gap-2">
-      <Link to="/cart">
-  <button className="p-2 rounded-full relative">
-    <FaCartPlus className="text-lg" />
-    {cartLength > 0 && (
-      <div className="absolute -top-1 -right-1 rounded-full w-4 h-4 bg-red-500 flex items-center justify-center text-xs text-white">
-        {cartLength}
-      </div>
-    )}
-  </button>
-</Link>
+        <Link to="/cart">
+          <button className="p-2 rounded-full relative">
+            <FaCartPlus className="text-lg" />
+            {cartLength > 0 && (
+              <div className="absolute -top-1 -right-1 rounded-full w-4 h-4 bg-red-500 flex items-center justify-center text-xs text-white">
+                {cartLength}
+              </div>
+            )}
+          </button>
+        </Link>
 
         <button
           onClick={handleAuthAction}

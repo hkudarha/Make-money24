@@ -14,6 +14,7 @@ export const Routers = {
   Checkout: "/checkout",
   UserPanel: "/user-dashboard",
   Profile: "/user-dashboard/profile",
+  Myrefferalcode: "/user-dashboard/myrefferalcode",
   Wallet: "/user-dashboard/income-history",
   Payout: "/user-dashboard/payout",
   AddFund: "/user-dashboard/add-fund",
